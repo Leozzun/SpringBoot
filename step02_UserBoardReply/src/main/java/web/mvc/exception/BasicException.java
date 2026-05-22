@@ -5,7 +5,6 @@ import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-//public class BasicException extends RuntimeException {
-public class BasicException extends Exception {//Checked 예외
+public class BasicException extends RuntimeException {
 	  private final ErrorCode errorCode;
 }
